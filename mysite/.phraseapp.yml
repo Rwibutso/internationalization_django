@@ -1,0 +1,8 @@
+phraseapp:
+  access_token: <your access token>
+  project_id: <your project's id on PhraseApp>
+  file_format: po
+
+  pull:
+    targets:
+        file: "polls/locale/<locale_code>/LC_MESSAGES/django.po

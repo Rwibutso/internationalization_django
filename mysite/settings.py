@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+from django.utils.translation import gettext_lazy as _
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -127,3 +127,13 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LANGUAGES = (
+    ('en-us', _('English')),
+    ('fr', _('Frensh')),
+)
+
+PHRASE_ENABLED = True
+PHRASE_PROJECT_ID = 'YOUR_PROJECT_ID'
+PHRASE_PREFIX = '{{__'
+PHRASE_SUFFIX = '__}}'

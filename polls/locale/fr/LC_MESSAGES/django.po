@@ -19,8 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 #: polls/templates/polls/index.html:3
 msgid "WelcomeHeading"
-msgstr "titre de bienvenue
-"
+msgstr "titre de bienvenue"
 
 #: polls/templates/polls/index.html:4
 msgid "WelcomeMessage"
