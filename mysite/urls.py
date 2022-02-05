@@ -19,5 +19,5 @@ from polls import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('polls/', views.index)
 ]
